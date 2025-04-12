@@ -1,52 +1,31 @@
-# Prerequisites
-*.d
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# Netlist files (exported from Eeschema)
+*.net
 
-# Precompiled Headers
-*.gch
-*.pch
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+# Exported BOM files
+#*.xml
+#*.csv
