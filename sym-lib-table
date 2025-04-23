@@ -3,4 +3,5 @@
   (lib (name "AMPLIFIER-INA331DGK_MSOP8_")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/AMPLIFIER-INA331DGK_MSOP8_.kicad_sym")(options "")(descr ""))
   (lib (name "ATTINY13-20SSU")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/ATTINY13-20SSU.kicad_sym")(options "")(descr ""))
   (lib (name "OPA333AIDBVR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/OPA333AIDBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "MP2322GQH-Z")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/MP2322GQH-Z.kicad_sym")(options "")(descr ""))
 )
