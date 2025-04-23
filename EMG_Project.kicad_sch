@@ -10,6 +10,218 @@
 		(rev "1")
 	)
 	(lib_symbols
+		(symbol "AMPLIFIER-INA331DGK_MSOP8_:AMPLIFIER-INA331DGK_MSOP8_"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -12.7 13.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "AMPLIFIER-INA331DGK_MSOP8"
+				(at -12.7 -16.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "AMPLIFIER-INA331DGK_MSOP8_:SOP65P490X110-8N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMPLIFIER-INA331DGK_MSOP8__0_0"
+				(rectangle
+					(start -12.7 12.7)
+					(end 12.7 -12.7)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "REF"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 6.35 0)
+					(length 5.08)
+					(name "VIN+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "VIN-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "SHUTDOWN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "V-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "RG"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "V+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ATTINY13-20SSU:ATTINY13-20SSU"
 			(pin_names
 				(offset 0.254)
@@ -1368,218 +1580,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "INA331IDGKT:AMPLIFIER-INA331DGK_MSOP8_"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -12.7 13.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "AMPLIFIER-INA331DGK_MSOP8"
-				(at -12.7 -16.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "AMPLIFIER-INA331DGK_MSOP8_:SOP65P490X110-8N"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AMPLIFIER-INA331DGK_MSOP8__0_0"
-				(rectangle
-					(start -12.7 12.7)
-					(end 12.7 -12.7)
-					(stroke
-						(width 0.41)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -17.78 10.16 0)
-					(length 5.08)
-					(name "REF"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 6.35 0)
-					(length 5.08)
-					(name "VIN+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "VIN-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -2.54 0)
-					(length 5.08)
-					(name "SHUTDOWN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 -7.62 0)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 10.16 180)
-					(length 5.08)
-					(name "RG"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 17.78 -10.16 180)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "OPA333AIDBVR:OPA333AIDBVR"
 			(pin_names
 				(offset 1.016)
@@ -2635,6 +2635,18 @@
 		(uuid 534dd6c4-d494-4c7e-b05d-7db11493de8c)
 	)
 	(rectangle
+		(start 46.99 105.41)
+		(end 185.42 165.1)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7a7fa83f-f7f9-4cad-b6e0-b7d6684dddb1)
+	)
+	(rectangle
 		(start 283.21 107.95)
 		(end 450.85 241.3)
 		(stroke
@@ -2903,6 +2915,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eed02355-ebcf-4eb2-8ccb-52f5128202dd")
+	)
+	(junction
+		(at 242.57 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f292c8a4-4dff-488a-a5d5-88e787c7427b")
 	)
 	(junction
 		(at 393.7 77.47)
@@ -3188,7 +3206,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 196.85) (xy 77.47 205.74)
+			(xy 77.47 135.89) (xy 77.47 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3285,6 +3303,16 @@
 			(type default)
 		)
 		(uuid "4e1c56d2-387f-470e-ba59-4162e7609b8e")
+	)
+	(wire
+		(pts
+			(xy 242.57 182.88) (xy 242.57 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533118b3-7094-4ae3-a6d7-1d855c1493ea")
 	)
 	(wire
 		(pts
@@ -3428,7 +3456,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 200.66) (xy 57.15 205.74)
+			(xy 59.69 139.7) (xy 59.69 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3718,7 +3746,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 177.8) (xy 57.15 181.61)
+			(xy 59.69 116.84) (xy 59.69 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4008,7 +4036,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 177.8) (xy 77.47 189.23)
+			(xy 77.47 116.84) (xy 77.47 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4128,7 +4156,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 189.23) (xy 57.15 193.04)
+			(xy 59.69 128.27) (xy 59.69 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4158,7 +4186,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 180.34) (xy 242.57 184.15)
+			(xy 242.57 176.53) (xy 242.57 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4217,7 +4245,7 @@
 		(uuid "0943d63c-104c-4788-a226-28deb5d63e3e")
 	)
 	(label "RST"
-		(at 139.7 212.09 0)
+		(at 139.7 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4227,7 +4255,7 @@
 		(uuid "0f771bb3-7446-4d59-943e-d7b7045238dd")
 	)
 	(label "SCK"
-		(at 163.83 191.77 0)
+		(at 163.83 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4267,7 +4295,7 @@
 		(uuid "1d292cbc-8c18-4555-a027-b55c24dbbfa0")
 	)
 	(label "TEST_LED"
-		(at 107.95 194.31 180)
+		(at 107.95 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4297,7 +4325,7 @@
 		(uuid "284ca6e1-9f74-43f0-9385-9f0c1427a377")
 	)
 	(label "RST"
-		(at 107.95 189.23 180)
+		(at 107.95 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4427,7 +4455,7 @@
 		(uuid "7e8ef580-692d-43b4-a950-d7982bec8f32")
 	)
 	(label "TEST_LED"
-		(at 57.15 177.8 180)
+		(at 59.69 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4457,7 +4485,7 @@
 		(uuid "909c5d1d-bcb8-4366-bf91-8c87a3762d9c")
 	)
 	(label "MOSI"
-		(at 163.83 196.85 0)
+		(at 163.83 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4467,7 +4495,7 @@
 		(uuid "92c12d65-d1e0-4d50-8521-c01989ae3c66")
 	)
 	(label "MISO"
-		(at 139.7 217.17 0)
+		(at 139.7 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4517,7 +4545,7 @@
 		(uuid "ab48ffec-ac74-435a-ab98-95b78199844c")
 	)
 	(label "SCK"
-		(at 139.7 219.71 0)
+		(at 139.7 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4547,7 +4575,7 @@
 		(uuid "cbf185e8-bc94-45ae-9421-31633ae5e43d")
 	)
 	(label "MOSI"
-		(at 139.7 214.63 0)
+		(at 139.7 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4577,7 +4605,7 @@
 		(uuid "de03cf2a-142e-4777-b355-9a2c56ffe0b3")
 	)
 	(label "V_OUT_SENSOR"
-		(at 107.95 191.77 180)
+		(at 107.95 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4597,7 +4625,7 @@
 		(uuid "e05b9501-0c21-427e-8106-94abc70e6efa")
 	)
 	(label "MISO"
-		(at 163.83 194.31 0)
+		(at 163.83 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4724,6 +4752,94 @@
 		)
 	)
 	(symbol
+		(lib_id "ATTINY13-20SSU:ATTINY13-20SSU")
+		(at 107.95 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04472168-091d-4991-a8a4-7411d4c6e8b4")
+		(property "Reference" "U5"
+			(at 135.89 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ATTINY13-20SSU"
+			(at 135.89 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "EMG Projct Footprints:S8S1_ATM"
+			(at 107.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "ATTINY13-20SSU"
+			(at 107.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "10f7bd8c-03e0-4fff-8b3a-d35b76212e82")
+		)
+		(pin "1"
+			(uuid "38861f6a-2abf-444f-8e98-a18b28175f43")
+		)
+		(pin "6"
+			(uuid "a105d4ab-6456-42b4-8049-2fecdcf40569")
+		)
+		(pin "5"
+			(uuid "989035ed-3d4d-4a30-bd4e-9980b1fb0db4")
+		)
+		(pin "7"
+			(uuid "2b233b16-99df-4c36-b682-deeee336d7d3")
+		)
+		(pin "4"
+			(uuid "bc57a17f-3c62-446b-991c-330c9bda1ffe")
+		)
+		(pin "3"
+			(uuid "ff054911-53d4-4903-8b20-2c73d1c2641f")
+		)
+		(pin "2"
+			(uuid "55040c0b-68b1-4bea-9158-dc917160d0e0")
+		)
+		(instances
+			(project ""
+				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 363.22 40.64 180)
 		(unit 1)
@@ -4776,6 +4892,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 363.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4848,6 +4972,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 259.08 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "84fbd75e-259a-4434-b50e-9a496910df56")
 		)
@@ -4914,6 +5046,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 374.65 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -4986,6 +5126,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 321.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "255e5aec-5493-435e-aa4a-5e435dcefc06")
 		)
@@ -5054,6 +5202,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 379.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0bd42e2b-386d-4755-8ef4-5244a0c0acd6")
 		)
@@ -5071,7 +5227,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 242.57 180.34 0)
+		(at 242.57 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5080,7 +5236,7 @@
 		(fields_autoplaced yes)
 		(uuid "11172467-27ff-4c13-8eeb-78067f2bb304")
 		(property "Reference" "#PWR017"
-			(at 242.57 184.15 0)
+			(at 242.57 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5089,7 +5245,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 242.57 175.26 0)
+			(at 242.57 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +5253,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 180.34 0)
+			(at 242.57 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5106,7 +5262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 180.34 0)
+			(at 242.57 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5115,7 +5271,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 242.57 180.34 0)
+			(at 242.57 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,6 +5346,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 472.44 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1981b098-5b0c-4b9d-ad18-6f3bcfeceecb")
 		)
@@ -5255,6 +5419,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 466.09 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5327,6 +5499,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 502.92 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "50e4e33e-1ad0-4b56-b473-0f32202655f3")
 		)
@@ -5393,6 +5573,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 379.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5465,6 +5653,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 393.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0da7c271-755b-4b31-a568-941b21fcefae")
 		)
@@ -5535,6 +5731,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 524.51 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f8133f1d-bcba-4254-9fa6-a04778ae8d77")
 		)
@@ -5545,94 +5749,6 @@
 			(project ""
 				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ATTINY13-20SSU:ATTINY13-20SSU")
-		(at 107.95 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2398a054-6dd3-48ae-b2c7-b71908d43c25")
-		(property "Reference" "U5"
-			(at 135.89 179.07 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ATTINY13-20SSU"
-			(at 135.89 181.61 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "S8S1_ATM"
-			(at 107.95 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "ATTINY13-20SSU"
-			(at 107.95 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 107.95 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "f38d95ea-5bce-4f0c-95a3-da7b533d7645")
-		)
-		(pin "3"
-			(uuid "f62ac6cb-f29f-499b-8dc4-6e123ab88743")
-		)
-		(pin "8"
-			(uuid "e1cfc70d-941b-4ccf-bc1f-4a8481381991")
-		)
-		(pin "2"
-			(uuid "f14acac0-95b1-4383-aa24-324afcfc7f5f")
-		)
-		(pin "7"
-			(uuid "c85db034-b7a3-46e4-ae3d-60c30289af2c")
-		)
-		(pin "4"
-			(uuid "1511b267-3498-4e39-88d3-decca7336f7e")
-		)
-		(pin "1"
-			(uuid "875fc2a3-d961-4d28-aa9b-1d5d212d75ca")
-		)
-		(pin "5"
-			(uuid "bda202f5-7119-4e15-a2aa-dd387cb656ef")
-		)
-		(instances
-			(project ""
-				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5691,6 +5807,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 476.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5826,6 +5950,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 472.44 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a029bffb-7401-436e-ac0b-797f77e80289")
 		)
@@ -5833,6 +5965,174 @@
 			(project "EMG_Project"
 				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OPA333AIDBVR:OPA333AIDBVR")
+		(at 375.92 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29b9b5f2-1ebb-4c67-a7d4-aea7fa68a2e6")
+		(property "Reference" "U3"
+			(at 375.92 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA333AIDBVR"
+			(at 375.92 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EMG Projct Footprints:SOT95P280X145-5N"
+			(at 375.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 375.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Micropower, 1.8-V, 17-µA zero-drift CMOS precision operational amplifier"
+			(at 375.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-5 Texas Instruments"
+			(at 375.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 375.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/OPA333AIDBVR/Texas+Instruments/view-part/?ref=snap"
+			(at 375.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "OPA333AIDBVR"
+			(at 375.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=551065&manufacturer=Texas Instruments&part_name=OPA333AIDBVR&search_term=None"
+			(at 375.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 375.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/OPA333AIDBVR/Texas+Instruments/view-part/?ref=eda"
+			(at 375.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1f7c4240-64ab-461d-960c-84aaaf5c3e99")
+		)
+		(pin "2"
+			(uuid "94789ea6-7593-42f1-b9a0-9e40bcaa8b20")
+		)
+		(pin "1"
+			(uuid "9e72311d-b37d-4e65-94cb-b219a36288fa")
+		)
+		(pin "4"
+			(uuid "3b0e3208-be74-41f4-98fd-f36b4ff8ebb8")
+		)
+		(pin "5"
+			(uuid "6ea6fae2-8be7-471a-a66a-8af4b66746c0")
+		)
+		(instances
+			(project ""
+				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -5891,6 +6191,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 561.34 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5958,6 +6266,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 521.97 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6028,6 +6344,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 309.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "R"
 			(uuid "0cc2495e-91da-424a-ab82-31cbba222405")
 		)
@@ -6047,95 +6371,8 @@
 		)
 	)
 	(symbol
-		(lib_id "INA331IDGKT:AMPLIFIER-INA331DGK_MSOP8_")
-		(at 375.92 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3f1450d7-4c57-440f-a25c-f82f0447584d")
-		(property "Reference" "U2"
-			(at 375.92 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMPLIFIER-INA331DGK_MSOP8"
-			(at 375.92 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AMPLIFIER-INA331DGK_MSOP8_:SOP65P490X110-8N"
-			(at 375.92 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 375.92 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "582b5a1f-e322-40fd-9215-49c14ea3d11f")
-		)
-		(pin "5"
-			(uuid "0f3dc934-6f14-44db-ba5b-5ff662fc75f8")
-		)
-		(pin "7"
-			(uuid "b40b41da-aa5b-4aaf-a5ef-3f9a3cff5ee4")
-		)
-		(pin "8"
-			(uuid "f4cc55ef-af89-4610-a326-a4fc4bbbb356")
-		)
-		(pin "6"
-			(uuid "ab48f24a-9969-4457-b508-c5b3413fc88c")
-		)
-		(pin "2"
-			(uuid "f20a622e-c610-426f-af86-5f90c3d2d59f")
-		)
-		(pin "3"
-			(uuid "d37bfee1-32ac-4aa5-a02e-9868e29803dc")
-		)
-		(pin "4"
-			(uuid "8f892589-7656-4684-9fc5-3821d996e363")
-		)
-		(instances
-			(project ""
-				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 134.62 217.17 180)
+		(at 134.62 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6144,7 +6381,7 @@
 		(fields_autoplaced yes)
 		(uuid "4102cf39-0ab4-416d-afac-6bd2acf5bd87")
 		(property "Reference" "J17"
-			(at 134.62 205.74 0)
+			(at 134.62 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +6389,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 134.62 208.28 0)
+			(at 134.62 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,7 +6397,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 217.17 0)
+			(at 134.62 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6169,7 +6406,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 217.17 0)
+			(at 134.62 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6178,12 +6415,20 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 134.62 217.17 0)
+			(at 134.62 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 134.62 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -6209,7 +6454,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 77.47 177.8 0)
+		(at 77.47 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6218,7 +6463,7 @@
 		(fields_autoplaced yes)
 		(uuid "41d76d2f-7e20-42e9-902b-4380073902a6")
 		(property "Reference" "#PWR025"
-			(at 77.47 181.61 0)
+			(at 77.47 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,7 +6472,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 77.47 172.72 0)
+			(at 77.47 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6235,7 +6480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 177.8 0)
+			(at 77.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,7 +6489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 177.8 0)
+			(at 77.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6498,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 77.47 177.8 0)
+			(at 77.47 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,6 +6571,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 41.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6464,6 +6717,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 476.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8c09b2c0-9589-4138-b96f-8502edd42f8c")
 		)
@@ -6478,7 +6739,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 205.74 0)
+		(at 59.69 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6487,7 +6748,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c582cc9-e033-4880-8634-3b38f9d54da5")
 		(property "Reference" "#PWR024"
-			(at 57.15 212.09 0)
+			(at 59.69 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6496,7 +6757,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 210.82 0)
+			(at 59.69 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +6765,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 205.74 0)
+			(at 59.69 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,7 +6774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 205.74 0)
+			(at 59.69 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6522,7 +6783,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 205.74 0)
+			(at 59.69 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,6 +6933,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 25.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "74d92c5e-cbbe-497f-b370-6dfeaa3da982")
 		)
@@ -6689,7 +6958,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 196.85 0)
+		(at 107.95 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6698,7 +6967,7 @@
 		(fields_autoplaced yes)
 		(uuid "531588b7-e216-4e89-99d5-e769bc6caf62")
 		(property "Reference" "#PWR022"
-			(at 107.95 203.2 0)
+			(at 107.95 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +6976,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 201.93 0)
+			(at 107.95 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,7 +6984,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 196.85 0)
+			(at 107.95 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,7 +6993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 196.85 0)
+			(at 107.95 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6733,7 +7002,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 196.85 0)
+			(at 107.95 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,6 +7143,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 307.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1bb75225-c005-4f25-92f0-252fe6135166")
 		)
@@ -6939,6 +7216,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 502.92 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7011,6 +7296,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 307.34 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4489e939-9450-4624-9357-b8aa25305c11")
 		)
@@ -7076,6 +7369,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 320.04 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7146,6 +7447,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 306.07 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7413,6 +7722,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 410.21 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f49d1d83-edb9-4c5c-b902-6f24c0dbb5b0")
 		)
@@ -7483,6 +7800,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 524.51 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "17ba6de5-0cac-4458-8f4e-c8b3944447b7")
 		)
@@ -7500,7 +7825,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 163.83 189.23 0)
+		(at 163.83 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7509,7 +7834,7 @@
 		(fields_autoplaced yes)
 		(uuid "6eab38ae-ab26-4092-83aa-2dcf9136c77f")
 		(property "Reference" "#PWR021"
-			(at 163.83 193.04 0)
+			(at 163.83 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7518,7 +7843,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 163.83 184.15 0)
+			(at 163.83 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +7851,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 189.23 0)
+			(at 163.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,7 +7860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 189.23 0)
+			(at 163.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7869,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 163.83 189.23 0)
+			(at 163.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7619,6 +7944,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 306.07 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2043f586-3a7f-4820-8ba5-29e3ca6aae4e")
 		)
@@ -7636,7 +7969,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 57.15 196.85 90)
+		(at 59.69 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7645,7 +7978,7 @@
 		(fields_autoplaced yes)
 		(uuid "72855df4-8877-4a30-974b-527ef7837e77")
 		(property "Reference" "D2"
-			(at 60.96 197.1674 90)
+			(at 63.5 136.2074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,7 +7987,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 60.96 199.7074 90)
+			(at 63.5 138.7474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7663,7 +7996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 196.85 0)
+			(at 59.69 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7672,7 +8005,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 196.85 0)
+			(at 59.69 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7681,7 +8014,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 57.15 196.85 0)
+			(at 59.69 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,12 +8023,20 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 57.15 196.85 0)
+			(at 59.69 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 59.69 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7834,6 +8175,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 476.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6764a368-9d01-48ac-8b61-2c0e7a3bfe9c")
 		)
@@ -7897,6 +8246,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 387.35 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7969,6 +8326,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 533.4 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8080,7 +8445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OPA333AIDBVR:SOT95P280X145-5N"
+		(property "Footprint" "EMG Projct Footprints:SOT95P280X145-5N"
 			(at 520.7 210.82 0)
 			(effects
 				(font
@@ -8198,6 +8563,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 520.7 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "a4aca957-7687-4e3c-ae60-c00654f72143")
 		)
@@ -8275,6 +8648,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 344.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "991bc1f1-32c9-4ba5-b481-b1e5c5f38b55")
 		)
@@ -8345,6 +8726,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 472.44 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3acc1dc5-fa13-4d58-af28-9f8984672589")
 		)
@@ -8410,6 +8799,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 361.95 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8548,6 +8945,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 410.21 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "61db4af0-7231-4492-be58-27eb480992c0")
 		)
@@ -8616,6 +9021,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 242.57 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8701,7 +9114,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 205.74 0)
+		(at 77.47 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8710,7 +9123,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f25036a-03ef-4351-bf63-602774d5a6ab")
 		(property "Reference" "#PWR020"
-			(at 77.47 212.09 0)
+			(at 77.47 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8719,7 +9132,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 210.82 0)
+			(at 77.47 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8727,7 +9140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 205.74 0)
+			(at 77.47 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8736,7 +9149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 205.74 0)
+			(at 77.47 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8745,7 +9158,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 205.74 0)
+			(at 77.47 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8817,6 +9230,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 521.97 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2ee44e3d-cfa8-4faa-aff2-d88218917e15")
 		)
@@ -8827,6 +9248,72 @@
 			(project ""
 				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 242.57 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a173f5a9-4e34-4a27-a357-34784c5750d8")
+		(property "Reference" "#FLG02"
+			(at 242.57 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 242.57 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 242.57 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96d240b8-71e8-45d4-83f0-495760f7411f")
+		)
+		(instances
+			(project ""
+				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -8885,6 +9372,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 307.34 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8957,6 +9452,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 480.06 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "01725292-4896-4c7c-affe-9b73817f7b44")
 		)
@@ -9027,6 +9530,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 472.44 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4feadc90-58a5-4d8a-85f9-2bcfe6d16b07")
 		)
@@ -9092,6 +9603,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 476.25 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9225,6 +9744,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 344.17 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b99984a7-cd08-496d-b7ab-3f0503e7fbc8")
 		)
@@ -9295,6 +9822,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 307.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cb39ef0e-6215-4623-98f6-d0f4b053664a")
 		)
@@ -9360,6 +9895,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 528.32 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9428,6 +9971,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 514.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -9500,6 +10051,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 524.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "06147327-c2a7-47ec-bc50-734d13b8a988")
 		)
@@ -9516,176 +10075,8 @@
 		)
 	)
 	(symbol
-		(lib_id "OPA333AIDBVR:OPA333AIDBVR")
-		(at 375.92 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb8a93dc-9772-4f7f-bb01-c70a0ea76edf")
-		(property "Reference" "U3"
-			(at 375.92 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA333AIDBVR"
-			(at 375.92 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "OPA333AIDBVR:SOT95P280X145-5N"
-			(at 375.92 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 375.92 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 375.92 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Micropower, 1.8-V, 17-µA zero-drift CMOS precision operational amplifier"
-			(at 375.92 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOT-23-5 Texas Instruments"
-			(at 375.92 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 375.92 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/OPA333AIDBVR/Texas+Instruments/view-part/?ref=snap"
-			(at 375.92 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "OPA333AIDBVR"
-			(at 375.92 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=551065&manufacturer=Texas Instruments&part_name=OPA333AIDBVR&search_term=None"
-			(at 375.92 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 375.92 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/OPA333AIDBVR/Texas+Instruments/view-part/?ref=eda"
-			(at 375.92 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "50f18a97-7aeb-42cb-a460-73643d2eba6f")
-		)
-		(pin "3"
-			(uuid "1de0e4b9-c9fd-472f-90f8-ac1ff2256c33")
-		)
-		(pin "5"
-			(uuid "6ad2dbfd-f479-4c5f-b7ca-8ce4722ca05e")
-		)
-		(pin "2"
-			(uuid "672b13d8-1911-4aba-9116-4464adf8d996")
-		)
-		(pin "1"
-			(uuid "a4956b3b-1c07-4666-a1a0-4fd18b36b927")
-		)
-		(instances
-			(project ""
-				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 77.47 193.04 0)
+		(at 77.47 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9694,7 +10085,7 @@
 		(fields_autoplaced yes)
 		(uuid "c16d7939-9532-4731-8955-19cdc375a961")
 		(property "Reference" "C16"
-			(at 81.28 191.7699 0)
+			(at 81.28 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9703,7 +10094,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 81.28 194.3099 0)
+			(at 81.28 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9712,7 +10103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.4352 196.85 0)
+			(at 78.4352 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9721,7 +10112,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 193.04 0)
+			(at 77.47 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9730,12 +10121,20 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 77.47 193.04 0)
+			(at 77.47 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 77.47 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -9872,6 +10271,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 341.63 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "45be1b58-8b33-4e87-b5f5-bdee2a2fb709")
 		)
@@ -9940,6 +10347,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 554.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10076,6 +10491,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 407.67 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10281,6 +10704,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 25.4 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cfbe0eb7-2e98-4a43-9bb8-97994b016794")
 		)
@@ -10351,6 +10782,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 307.34 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a0d4a2d4-d5a3-40ec-b60e-e5434a66a487")
 		)
@@ -10414,6 +10853,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 543.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -10486,6 +10933,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 502.92 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "623d0700-dd13-433f-990c-1d2fcf11a3bc")
 		)
@@ -10502,8 +10957,95 @@
 		)
 	)
 	(symbol
+		(lib_id "AMPLIFIER-INA331DGK_MSOP8_:AMPLIFIER-INA331DGK_MSOP8_")
+		(at 375.92 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb5ed70b-8764-4539-af2c-0e72f8110089")
+		(property "Reference" "U2"
+			(at 375.92 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMPLIFIER-INA331DGK_MSOP8"
+			(at 375.92 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EMG Projct Footprints:SOP65P490X110-8N"
+			(at 375.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 375.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 375.92 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4373827c-7632-4025-ab91-20883705ca2f")
+		)
+		(pin "7"
+			(uuid "a618c235-e76d-4355-ab3d-c3453300204e")
+		)
+		(pin "5"
+			(uuid "b8460bb8-ea3f-4b3f-950a-759aa2aa36a2")
+		)
+		(pin "8"
+			(uuid "65adbff2-ea9f-4ca7-9f7f-e4389f88cee2")
+		)
+		(pin "2"
+			(uuid "7e831efb-c6c7-4d2c-9ae7-0b28409494c6")
+		)
+		(pin "4"
+			(uuid "386f3c36-8834-486c-9a3b-b5e1df9697ca")
+		)
+		(pin "3"
+			(uuid "0761ea3d-9811-4ac9-8683-660ac5528c1a")
+		)
+		(pin "1"
+			(uuid "bc348435-af96-468e-b1b7-1b04b85c8cba")
+		)
+		(instances
+			(project ""
+				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 57.15 185.42 0)
+		(at 59.69 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10512,7 +11054,7 @@
 		(fields_autoplaced yes)
 		(uuid "edf68ccb-adda-41f0-bf1b-dcf0ca3328cb")
 		(property "Reference" "R22"
-			(at 59.69 184.1499 0)
+			(at 62.23 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10521,7 +11063,7 @@
 			)
 		)
 		(property "Value" "400"
-			(at 59.69 186.6899 0)
+			(at 62.23 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10530,7 +11072,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.372 185.42 90)
+			(at 57.912 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10539,7 +11081,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 185.42 0)
+			(at 59.69 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10548,12 +11090,20 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 57.15 185.42 0)
+			(at 59.69 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 59.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10758,6 +11308,14 @@
 				(hide yes)
 			)
 		)
+		(property "Comments" ""
+			(at 242.57 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "121a06d8-95e7-43a5-8388-9bfd21bc0510")
 		)
@@ -10826,6 +11384,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 306.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
