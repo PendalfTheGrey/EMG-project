@@ -4,4 +4,5 @@
   (lib (name "ATTINY13-20SSU")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/ATTINY13-20SSU.kicad_sym")(options "")(descr ""))
   (lib (name "OPA333AIDBVR")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/OPA333AIDBVR.kicad_sym")(options "")(descr ""))
   (lib (name "MP2322GQH-Z")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/MP2322GQH-Z.kicad_sym")(options "")(descr ""))
+  (lib (name "SJ1-3523N")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Symbols/SJ1-3523N.kicad_sym")(options "")(descr ""))
 )
