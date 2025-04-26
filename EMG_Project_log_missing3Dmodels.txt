@@ -1,0 +1,1 @@
+[('U1', 'C:\\Users\\Gaming\\Dokument\\Kicad Projects\\EMG-project\\MP2322GQH-Z.stp')]

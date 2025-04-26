@@ -5803,16 +5803,6 @@
 		)
 		(uuid "21ac9fc3-fcb9-40b8-aeed-466c3a0f49af")
 	)
-	(label "REG_OUT"
-		(at 49.53 204.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "21b1d04d-7bb5-412a-85cd-8a8ff7c0ebc5")
-	)
 	(label "TEST_LED"
 		(at 91.44 158.75 180)
 		(effects
@@ -5833,6 +5823,16 @@
 		)
 		(uuid "23a04e07-51b6-4e6a-a985-62790377827e")
 	)
+	(label "+5V"
+		(at 49.53 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "253c8fef-1bac-4232-be6e-cbf9a0f15f6c")
+	)
 	(label "V_REF"
 		(at 356.87 101.6 0)
 		(effects
@@ -5852,16 +5852,6 @@
 			(justify right bottom)
 		)
 		(uuid "2d13e649-9270-4628-9407-125f842c89f9")
-	)
-	(label "GND"
-		(at 294.64 190.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2f12f942-32f9-494e-9a66-871b261fbe13")
 	)
 	(label "V_IN_INST_P"
 		(at 351.79 217.17 180)
@@ -5993,6 +5983,16 @@
 		)
 		(uuid "6c205c0d-8b41-4250-82a5-4a994669e8fe")
 	)
+	(label "V_IN_MCU"
+		(at 92.71 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d0943d2-f029-42c3-b638-02a92f621026")
+	)
 	(label "V_OUT_HP"
 		(at 546.1 208.28 0)
 		(effects
@@ -6022,16 +6022,6 @@
 			(justify right bottom)
 		)
 		(uuid "7e8ef580-692d-43b4-a950-d7982bec8f32")
-	)
-	(label "+5V"
-		(at 49.53 199.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f4ab81e-4a34-4208-bd05-2d60a8f1fe39")
 	)
 	(label "GND"
 		(at 462.28 254 180)
@@ -6133,15 +6123,25 @@
 		)
 		(uuid "a9ef3cc7-1528-4b94-bd2a-85eeacb37a1a")
 	)
-	(label "+3.3V"
-		(at 464.82 161.29 180)
+	(label "REG_OUT"
+		(at 49.53 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4fd7c02-413f-4025-aac3-c12c146d678c")
+	)
+	(label "+5V"
+		(at 125.73 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "b48a3c3f-d57e-4c97-b07a-035a974c8ac2")
+		(uuid "b80490d9-dd2a-4899-b9d1-58d10f5ec6cd")
 	)
 	(label "V_REF"
 		(at 405.13 130.81 0)
@@ -6162,6 +6162,16 @@
 			(justify left bottom)
 		)
 		(uuid "ba025b11-b3b8-42fa-8084-84494ab94d93")
+	)
+	(label "V_IN_MCU"
+		(at 91.44 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1bb281b-a117-42c0-93bd-55b9c36c9a10")
 	)
 	(label "GND"
 		(at 152.4 180.34 180)
@@ -6243,16 +6253,6 @@
 		)
 		(uuid "de03cf2a-142e-4777-b355-9a2c56ffe0b3")
 	)
-	(label "V_OUT_SENSOR"
-		(at 91.44 156.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e05824be-f6c1-49ae-9f56-fa2ed4d951cc")
-	)
 	(label "MISO"
 		(at 147.32 158.75 0)
 		(effects
@@ -6264,14 +6264,24 @@
 		(uuid "e284fee3-2164-46ea-8e73-36cfc3b709a6")
 	)
 	(label "GND"
-		(at 464.82 142.24 180)
+		(at 125.73 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "e72a51b2-0d52-4459-9b38-e9ebbfc81538")
+		(uuid "e4302868-011a-40e9-8801-574b18aaf519")
+	)
+	(label "V_OUT_SENSOR"
+		(at 85.09 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f55d6e7c-4852-4164-b07e-9557cf6ea3e8")
 	)
 	(label "GND"
 		(at 295.91 160.02 180)
@@ -8786,81 +8796,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 469.9 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b724edf-458b-4c7e-bf3f-e13ad90b0a3f")
-		(property "Reference" "J13"
-			(at 472.44 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 472.44 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 469.9 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 469.9 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 469.9 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comments" ""
-			(at 469.9 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8c09b2c0-9589-4138-b96f-8502edd42f8c")
-		)
-		(instances
-			(project "EMG_Project"
-				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
-					(reference "J13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 43.18 170.18 0)
 		(unit 1)
@@ -10065,6 +10000,76 @@
 			(project "EMG_Project"
 				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 130.81 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b356cb8-e0f5-45c2-85bc-b0fe571c8a67")
+		(property "Reference" "J18"
+			(at 133.35 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 133.35 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+			(at 130.81 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 130.81 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34c1eabe-a0a7-4c3b-bbb0-a3dbc6c08038")
+		)
+		(pin "2"
+			(uuid "e3d6a0e6-a3e5-476b-8cc5-f3da14be8cde")
+		)
+		(instances
+			(project "EMG_Project"
+				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -12268,81 +12273,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 469.9 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae3d7293-c521-43bb-81e4-bdf10cb83ab3")
-		(property "Reference" "J16"
-			(at 472.44 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01"
-			(at 472.44 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 469.9 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 469.9 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 469.9 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Comments" ""
-			(at 469.9 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "467fdb7d-34b5-4fcf-8c1e-d3b6c3d5ee34")
-		)
-		(instances
-			(project "EMG_Project"
-				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 209.55 194.31 0)
 		(unit 1)
@@ -12883,7 +12813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EMG Projct Footprints:MP2322GQHZ"
+		(property "Footprint" "EMG Projct Footprints:QFN-8_1p5MMx2MM_MNP"
 			(at 81.28 332.41 0)
 			(effects
 				(font
@@ -14739,35 +14669,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 299.72 190.5 0)
+		(lib_id "Device:R")
+		(at 88.9 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fb101ec9-7614-47a4-9e62-e5a1d662b964")
-		(property "Reference" "J3"
-			(at 302.26 189.2299 0)
+		(uuid "f4a27eb8-42ff-4882-8b12-1a22d1a08dd0")
+		(property "Reference" "R26"
+			(at 88.9 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x01"
-			(at 302.26 191.7699 0)
+		(property "Value" "0"
+			(at 88.9 173.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 299.72 190.5 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 88.9 179.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14776,7 +14704,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 299.72 190.5 0)
+			(at 88.9 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14784,30 +14712,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 299.72 190.5 0)
+		(property "Description" "Resistor"
+			(at 88.9 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Comments" ""
-			(at 299.72 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
-			(uuid "ccbb1f5b-6825-4e71-b7a3-2253ecfb9ae6")
+			(uuid "bf9141df-2228-42f1-9e59-ac6f95a96618")
+		)
+		(pin "2"
+			(uuid "b0b036b3-2757-4417-9f70-6f6d3d0c3ff1")
 		)
 		(instances
 			(project "EMG_Project"
 				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
-					(reference "J3")
+					(reference "R26")
 					(unit 1)
 				)
 			)
