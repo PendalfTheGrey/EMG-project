@@ -3793,18 +3793,6 @@
 		)
 		(uuid "e8eb29ca-011c-48a3-8b57-86b623a8d9c3")
 	)
-	(text "???\n"
-		(exclude_from_sim no)
-		(at 304.8 118.618 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-		)
-		(uuid "e8f08e7e-2644-4593-bfcc-a7005f365b8f")
-	)
 	(text "Power indicator LED"
 		(exclude_from_sim no)
 		(at 208.026 138.684 0)
