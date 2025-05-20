@@ -6485,6 +6485,15 @@
 				(hide yes)
 			)
 		)
+		(property "Precision" ""
+			(at 290.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8083be2d-c5d6-4431-b36c-0e02ba73f3ae")
 		)
@@ -6558,6 +6567,15 @@
 				(hide yes)
 			)
 		)
+		(property "Precision" ""
+			(at 359.41 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "EMG_Project"
 				(path "/2ecd8873-9ec8-4cb5-ac8f-8242dc498ac3"
@@ -6614,6 +6632,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 91.44 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 91.44 153.67 0)
 			(effects
 				(font
@@ -6718,6 +6745,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 356.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7bbfe608-8136-49ab-91b9-07c16350049a")
 		)
@@ -6796,6 +6832,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 219.71 250.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "84fbd75e-259a-4434-b50e-9a496910df56")
 		)
@@ -6870,6 +6915,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" "1%"
+			(at 368.3 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7016,6 +7070,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 320.04 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "255e5aec-5493-435e-aa4a-5e435dcefc06")
 		)
@@ -7078,6 +7141,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 157.48 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 157.48 177.8 0)
 			(effects
 				(font
@@ -7168,6 +7240,15 @@
 				(hide yes)
 			)
 		)
+		(property "Precision" ""
+			(at 137.16 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9144e30d-c97f-48e8-b796-ea22b21aff7e")
 		)
@@ -7242,6 +7323,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" "1%"
+			(at 373.38 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7388,6 +7478,15 @@
 				)
 			)
 		)
+		(property "Precision" "10%"
+			(at 459.74 313.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "291f5eca-f4cc-4cc3-9a6c-a0d3f31ba41e")
 		)
@@ -7464,6 +7563,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" ""
+			(at 496.57 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -7609,6 +7717,15 @@
 				)
 			)
 		)
+		(property "Precision" "1%"
+			(at 373.38 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c46740d9-aa01-4adf-b27a-7f77e1c0b473")
 		)
@@ -7671,6 +7788,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 332.74 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 332.74 332.74 0)
 			(effects
 				(font
@@ -7751,6 +7877,15 @@
 				)
 			)
 		)
+		(property "Precision" "10%"
+			(at 387.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0da7c271-755b-4b31-a568-941b21fcefae")
 		)
@@ -7813,6 +7948,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 308.61 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 308.61 332.74 0)
 			(effects
 				(font
@@ -7893,6 +8037,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 518.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8133f1d-bcba-4254-9fa6-a04778ae8d77")
 		)
@@ -7969,6 +8122,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" ""
+			(at 469.9 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8110,6 +8272,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" ""
+			(at 466.09 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8268,6 +8439,15 @@
 				(hide yes)
 			)
 		)
+		(property "Precision" ""
+			(at 369.57 283.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1f7c4240-64ab-461d-960c-84aaaf5c3e99")
 		)
@@ -8413,6 +8593,15 @@
 				(hide yes)
 			)
 		)
+		(property "Precision" ""
+			(at 59.69 254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8cbee52f-9c07-48a7-a819-bcc07373092c")
 		)
@@ -8491,6 +8680,15 @@
 				)
 			)
 		)
+		(property "Precision" "1%"
+			(at 554.99 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0b6d5752-81a8-4c68-8738-d23d55a2dafd")
 		)
@@ -8564,6 +8762,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" "1%"
+			(at 515.62 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -8694,6 +8901,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 467.36 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 467.36 251.46 0)
 			(effects
 				(font
@@ -9053,6 +9269,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 209.55 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74d92c5e-cbbe-497f-b370-6dfeaa3da982")
 		)
@@ -9263,6 +9488,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 300.99 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1bb75225-c005-4f25-92f0-252fe6135166")
 		)
@@ -9322,6 +9556,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 85.09 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 85.09 229.87 0)
 			(effects
 				(font
@@ -9408,6 +9651,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 496.57 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49eb4612-7ea4-4acd-8d24-02e556db6bb5")
 		)
@@ -9484,6 +9736,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" ""
+			(at 300.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9625,6 +9886,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" "10%"
+			(at 313.69 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9769,6 +10039,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" ""
+			(at 299.72 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9978,6 +10257,15 @@
 				)
 			)
 		)
+		(property "Precision" "5%"
+			(at 403.86 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f49d1d83-edb9-4c5c-b902-6f24c0dbb5b0")
 		)
@@ -10040,6 +10328,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 130.81 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 130.81 179.07 0)
 			(effects
 				(font
@@ -10124,6 +10421,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" "1%"
+			(at 518.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10270,6 +10576,15 @@
 				)
 			)
 		)
+		(property "Precision" "10%"
+			(at 299.72 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2043f586-3a7f-4820-8ba5-29e3ca6aae4e")
 		)
@@ -10355,6 +10670,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" ""
+			(at 43.18 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10501,6 +10825,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 469.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6764a368-9d01-48ac-8b61-2c0e7a3bfe9c")
 		)
@@ -10572,6 +10905,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" "1%"
+			(at 381 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10652,6 +10994,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" ""
+			(at 527.05 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10785,6 +11136,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 143.51 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 143.51 259.08 0)
 			(effects
 				(font
@@ -10959,6 +11319,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 514.35 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "a4aca957-7687-4e3c-ae60-c00654f72143")
 		)
@@ -11044,6 +11413,15 @@
 				)
 			)
 		)
+		(property "Precision" "1%"
+			(at 337.82 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "991bc1f1-32c9-4ba5-b481-b1e5c5f38b55")
 		)
@@ -11122,6 +11500,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 355.6 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "da48c2e8-0793-4754-8702-6681244860b1")
 		)
@@ -11184,6 +11571,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 91.44 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 91.44 243.84 0)
 			(effects
 				(font
@@ -11394,6 +11790,15 @@
 				(hide yes)
 			)
 		)
+		(property "Precision" ""
+			(at 118.11 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9296e6d0-aa69-4a14-bc52-1f7e9dcf44ca")
 		)
@@ -11470,6 +11875,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" "5%"
+			(at 403.86 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11550,6 +11964,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 203.2 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "946d6137-dd71-48f4-827c-f77b557902df")
 		)
@@ -11612,6 +12035,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 149.86 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 149.86 213.36 0)
 			(effects
 				(font
@@ -11828,6 +12260,15 @@
 				)
 			)
 		)
+		(property "Precision" "10%"
+			(at 515.62 320.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2ee44e3d-cfa8-4faa-aff2-d88218917e15")
 		)
@@ -12038,6 +12479,15 @@
 				)
 			)
 		)
+		(property "Precision" "10%"
+			(at 285.75 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01725292-4896-4c7c-affe-9b73817f7b44")
 		)
@@ -12114,6 +12564,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" ""
+			(at 466.09 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12387,6 +12846,15 @@
 				)
 			)
 		)
+		(property "Precision" "1%"
+			(at 337.82 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b99984a7-cd08-496d-b7ab-3f0503e7fbc8")
 		)
@@ -12463,6 +12931,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" ""
+			(at 300.99 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12606,6 +13083,15 @@
 				)
 			)
 		)
+		(property "Precision" "1%"
+			(at 521.97 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a746f61-38a6-4af6-ae9e-dbd5d3cd19fe")
 		)
@@ -12680,6 +13166,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" "10%"
+			(at 508 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12758,6 +13253,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" "1%"
+			(at 518.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12877,6 +13381,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
+			(at 59.69 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13033,6 +13546,15 @@
 				(hide yes)
 			)
 		)
+		(property "Precision" ""
+			(at 109.22 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "98438ef9-f0e9-4d0e-a594-8cd25b472887")
 		)
@@ -13095,6 +13617,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 383.54 332.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 383.54 332.74 0)
 			(effects
 				(font
@@ -13175,6 +13706,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 60.96 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b76b39c3-cc03-4bbd-952f-e912704acf53")
 		)
@@ -13251,6 +13791,15 @@
 				)
 			)
 		)
+		(property "Precision" "10%"
+			(at 335.28 255.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45be1b58-8b33-4e87-b5f5-bdee2a2fb709")
 		)
@@ -13313,6 +13862,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 130.81 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 130.81 259.08 0)
 			(effects
 				(font
@@ -13389,6 +13947,15 @@
 				(hide yes)
 			)
 		)
+		(property "Precision" ""
+			(at 44.45 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7697417-1aeb-4be1-a68f-ee377f4018e1")
 		)
@@ -13452,6 +14019,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 288.29 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 288.29 110.49 0)
 			(effects
 				(font
@@ -13607,6 +14183,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 548.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2ae913dd-8cad-4430-ac68-36968b868bae")
 		)
@@ -13669,6 +14254,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 124.46 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 124.46 213.36 0)
 			(effects
 				(font
@@ -13755,6 +14349,15 @@
 				)
 			)
 		)
+		(property "Precision" "1%"
+			(at 401.32 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d095c49-8cb6-4d7c-b665-c2a61f0554ad")
 		)
@@ -13817,6 +14420,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 118.11 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 118.11 269.24 0)
 			(effects
 				(font
@@ -13969,6 +14581,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 209.55 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cfbe0eb7-2e98-4a43-9bb8-97994b016794")
 		)
@@ -14047,6 +14668,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 300.99 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0d4a2d4-d5a3-40ec-b60e-e5434a66a487")
 		)
@@ -14120,6 +14750,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 537.21 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "100e1c01-8e67-428c-9fe2-81cb2e3ecb97")
 		)
@@ -14181,6 +14820,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 102.87 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
+			(at 102.87 247.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14266,6 +14914,15 @@
 				)
 			)
 		)
+		(property "Precision" "1%"
+			(at 496.57 331.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "623d0700-dd13-433f-990c-1d2fcf11a3bc")
 		)
@@ -14327,6 +14984,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 369.57 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
 			(at 369.57 223.52 0)
 			(effects
 				(font
@@ -14429,6 +15095,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Precision" ""
+			(at 43.18 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -14641,6 +15316,15 @@
 				)
 			)
 		)
+		(property "Precision" ""
+			(at 203.2 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "121a06d8-95e7-43a5-8388-9bfd21bc0510")
 		)
@@ -14702,6 +15386,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 88.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Precision" ""
+			(at 88.9 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
